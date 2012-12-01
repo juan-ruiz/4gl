@@ -1,0 +1,49 @@
+body
+    {
+        background-image: url('/images/bg4.jpg');
+    }
+#tituloSearch
+{
+    width:100%;
+    border-bottom: #fff solid 2px;
+    padding-bottom: 12px;
+}
+#panel
+{
+    position: absolute;
+    width:100%;
+    min-height: 405px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+.titulo{
+  font-family: 'iconFont', 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding-left: 24px;
+  margin: 0px;
+  display:inline;
+}
+.alinear{
+    text-align: right;
+}
+ul
+{
+    margin-top: 12px;
+}
+li
+{
+    float:left;
+    list-style-type:none;
+    margin-right: 6px;
+    margin-bottom: 0px;
+}
+li img
+{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#999;
+}
+li img:hover
+{
+    border-color:#fff;
+}
